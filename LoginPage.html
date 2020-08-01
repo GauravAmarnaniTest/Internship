@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Login Page of All About Personality website.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page.</title>
+    </head>
+    <script type="text/javascript" >
+        function preventBack(){window.history.forward();}
+         setTimeout("preventBack()", 0);
+         window.onunload=function(){null};
+     </script>
+    <body>
+        <link rel="stylesheet" type="text/css" href="LoginPage.css">
+        <script src="AllAboutPersonality.js" type="text/javascript"></script>
+        <div class = "login-box">
+            <img src="Images/avatar.png" class="avatar">
+            <h1>
+                Login Here
+            </h1>
+            <form onsubmit="return validate()" action="HomePage.html">
+                <p>Name *</p>
+                <input style="color: black;" id="name" type="text" placeholder="Enter Your Name" required/>
+                <label id="lname" style="color: red;visibility: hidden;">Invalid Name.</label>
+                <p>E-Mail Account *</p>
+                <input style="color: black;" id="account" type="text" placeholder="Enter E-mail Account" required/>
+                <label id="laccount" style="color: red;visibility: hidden;">Invalid Account.</label>
+                <p>Mobile Number *</p>
+                <input style="color: black;" id="number" type="text" placeholder="Enter Mobile Number" required/>
+                <label id="lnumber" style="color: red;visibility: hidden;">Invalid Number.</label>
+                <br>
+                <input type="submit" name="submit" value="Login">
+
+            </form>
+        </div> 
+    </body>
+</html>

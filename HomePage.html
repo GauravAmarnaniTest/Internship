@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Home Page of All About Personality website.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home Page.</title>
+    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2bc254d595.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="HomePage.css"/>
+    <body>
+      <br/><br/><br/><br/>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: gray;">
+        <a style="font-weight: bolder;" class="navbar-brand" href="#"> <i class="fas fa-home"></i> All About Personality. |</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Profile Info. 
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="ProfilePage.html">View Profile.</a>
+                <a onclick="logOut()" class="dropdown-item" href="LoginPage.html">LogIn with different Profile.</a>
+                <a onclick="logOut()" class="dropdown-item" href="LoginPage.html">LogOut.</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="PersonalityTypes.html">| &nbsp; Personality Types.  <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="PersonalityTestInfo.html">| &nbsp; Personality Test. <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">| &nbsp; About us. <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">| &nbsp; Contact us. | <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <span style="font-size: 22px;" class="navbar-text">
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Welcome to our Website! Enjoy!
+          </span>
+        </div>
+      </nav>
+      <center>
+        <h1>
+          Welcome Everyone! 
+          <br/>
+          There are a total of 16 Personalities.
+        </h1>
+        <br/>
+        <p id="p1">
+        <i class="fas fa-quote-left"></i>
+        Have you ever wondered where your personality comes from? Why does one person tend toward shyness while the other thrives in social settings? Thinking about it tends to encroach upon that "nature versus nurture" argument.
+        Still, we all have different personality traits. Who are we really? Are we born leaders? Are we idealists and mediators? Let's see how close we can get to the various personality types explained.
+        <i class="fas fa-quote-right"></i>
+        </p>
+        <h2>
+          So without wasting any more time, Let's begin and find yours!
+        </h2>
+      </center>
+    </body>
+</html>

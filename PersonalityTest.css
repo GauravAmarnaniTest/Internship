@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(16, 23, 31);
+}
+p.p1{
+    color:lightsalmon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+p.p2{
+    color:cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+p.p3{
+    color:lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+div.d1{
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+a.anchor{
+    font-size: 17px;
+    color: black;
+}
+button.btn{
+    font-size: 17px;
+    color: white;
+}
+p.p4{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body
+{
+    background: linear-gradient(90deg, rgb(25, 95, 122)50%,rgb(10, 26, 26) 50%);
+    font-family: sans-serif;
+}
+#info
+{
+    width: 25%;
+    height: 500px;
+    position: absolute;
+    top: 37%;
+    left: 15%;
+    transform: translate(-30% , -30%);
+    background-color: rgb(10, 26, 26);
+    z-index: 1;
+}
+#ff
+{
+    width: 70%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+}
+.FeedbackText
+{
+    color: rgb(10, 26, 26);
+    font-weight: bolder;
+    text-align: center;
+}
+.InfoText
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: 50;
+}

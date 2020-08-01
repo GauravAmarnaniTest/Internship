@@ -1,0 +1,33 @@
+body
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: grey;
+}
+#b1
+{
+    visibility: visible;
+}
+#p1
+{
+    visibility: hidden;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+#head1
+{
+    visibility: hidden;
+}
+#d1
+{
+    visibility: hidden;
+    height: 600px;
+    width: 600px;
+    background-color: darkgray;
+}
+span.s
+{
+    font-size: 20px;
+}

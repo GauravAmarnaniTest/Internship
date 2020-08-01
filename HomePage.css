@@ -1,0 +1,18 @@
+body
+{
+    background-color: #3f1e4d;
+}
+a
+{
+    font-size: 20px;
+}
+h1,h2
+{
+    color: white;
+}
+#p1
+{
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+}
